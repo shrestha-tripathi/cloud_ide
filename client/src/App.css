@@ -4,15 +4,24 @@
 }
 
 .editor-container {
-  display: flex;
   min-height: 60vh;
+  display: flex;
+}
+
+.files {
+  padding: 20px;
+  width: 10vw;
+}
+
+.editor {
+  width: 90vw;
+}
+
+.file-node {
+  cursor: pointer;
 }
 
 li {
   list-style: none;
-}
-
-.file-node {
-  background-color: lightyellow;
-  cursor: pointer;
+  line-height: 24px;
 }
